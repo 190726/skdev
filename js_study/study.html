@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="00_concept.js"></script>
+    <!--1. async : parsing HTML, fetching js => executing js, blocked HTML
+     => parsing HTML-->
+    <!-- <script async type="text/javascript" src="00_concept.js"></script> -->
+    <!--2. defer(good code!) : parsing HTML, fetching js => 파싱 완료시 executing js-->
+    <script  defer type="text/javascript" src="00_concept.js"></script>
 </head>
 <body>
     
